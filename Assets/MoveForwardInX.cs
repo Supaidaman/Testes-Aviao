@@ -13,6 +13,7 @@ public class MoveForwardInX : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position -= transform.up * Time.deltaTime * 20f;
+        //????
+        transform.position -= new Vector3(0,0,1) * Time.deltaTime * 20f;
     }
 }
