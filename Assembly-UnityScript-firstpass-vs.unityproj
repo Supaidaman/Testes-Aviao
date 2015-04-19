@@ -51,6 +51,7 @@
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
+     <None Include="Assets\SilverLining\Resources\SilverLiningPuff.shader" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\Shaders\OceanWhiteCaps.shader" />
      <None Include="Assets\Resources\Fourier.shader" />
@@ -62,13 +63,20 @@
      <None Include="Assets\Resources\InitJacobians.shader" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
      <None Include="Assets\Shaders\SlopeVariance.compute" />
+     <None Include="Assets\SilverLining\Resources\SilverLiningCirrus.shader" />
+     <None Include="Assets\SilverLining\Resources\SilverLiningStratusNoFog.shader" />
      <None Include="Assets\OVR\Shaders\Unlit Transparent HUD.shader" />
+     <None Include="Assets\SilverLining\Resources\SilverLiningSky.shader" />
      <None Include="Assets\Shaders\SkyMap.shader" />
+     <None Include="Assets\SilverLining\readme.txt" />
+     <None Include="Assets\SilverLining\Resources\SilverLiningStratus.shader" />
+     <None Include="Assets\SilverLining\Resources\SilverLiningSun.shader" />
      <None Include="Assets\Shaders\ReadData.compute" />
      <None Include="Assets\Resources\WhiteCapsPrecompute.shader" />
      <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
      <None Include="Assets\Resources\InitDisplacement.shader" />
      <None Include="Assets\Plugins\x86\donotdelete.txt" />
+     <None Include="Assets\SilverLining\Resources\SilverLiningSunNoFog.shader" />
      <None Include="Assets\Shaders\OceanWireframe.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

@@ -52,9 +52,6 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
@@ -91,6 +88,23 @@
     <Compile Include="Assets\RotateAround.cs" />
     <Compile Include="Assets\Scripts\Ocean.cs" />
     <Compile Include="Assets\Scripts\Sky.cs" />
+    <Compile Include="Assets\SilverLining\Resources\SilverLining.cs" />
+    <Compile Include="Assets\SilverLining\Src\SilverLiningCirrusCloud.cs" />
+    <Compile Include="Assets\SilverLining\Src\SilverLiningCumulusCloud.cs" />
+    <Compile Include="Assets\SilverLining\Src\SilverLiningCumulusCloudLayer.cs" />
+    <Compile Include="Assets\SilverLining\Src\SilverLiningEphemeris.cs" />
+    <Compile Include="Assets\SilverLining\Src\SilverLiningLocation.cs" />
+    <Compile Include="Assets\SilverLining\Src\SilverLiningLuminanceMapper.cs" />
+    <Compile Include="Assets\SilverLining\Src\SilverLiningLunarSpectrum.cs" />
+    <Compile Include="Assets\SilverLining\Src\SilverLiningMatrix3.cs" />
+    <Compile Include="Assets\SilverLining\Src\SilverLiningSky.cs" />
+    <Compile Include="Assets\SilverLining\Src\SilverLiningSolarSpectrum.cs" />
+    <Compile Include="Assets\SilverLining\Src\SilverLiningSpectrum.cs" />
+    <Compile Include="Assets\SilverLining\Src\SilverLiningStars.cs" />
+    <Compile Include="Assets\SilverLining\Src\SilverLiningStratusCloud.cs" />
+    <Compile Include="Assets\SilverLining\Src\SilverLiningTime.cs" />
+    <Compile Include="Assets\TakeOff.cs" />
+    <Compile Include="Assets\testescript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
@@ -109,6 +123,14 @@
     <None Include="Assets\Shaders\OceanWireframe.shader" />
     <None Include="Assets\Shaders\Sky.shader" />
     <None Include="Assets\Shaders\SkyMap.shader" />
+    <None Include="Assets\SilverLining\readme.txt" />
+    <None Include="Assets\SilverLining\Resources\SilverLiningCirrus.shader" />
+    <None Include="Assets\SilverLining\Resources\SilverLiningPuff.shader" />
+    <None Include="Assets\SilverLining\Resources\SilverLiningSky.shader" />
+    <None Include="Assets\SilverLining\Resources\SilverLiningStratus.shader" />
+    <None Include="Assets\SilverLining\Resources\SilverLiningStratusNoFog.shader" />
+    <None Include="Assets\SilverLining\Resources\SilverLiningSun.shader" />
+    <None Include="Assets\SilverLining\Resources\SilverLiningSunNoFog.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
